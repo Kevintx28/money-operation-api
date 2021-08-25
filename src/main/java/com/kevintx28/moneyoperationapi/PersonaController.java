@@ -20,10 +20,10 @@ public class PersonaController {
 /*
 hijos = [] //lista de elementos
 hermano_mayor = {
-nombre: "Raul Jonatan",
-apellido: "Tola",
-edad: 30,
+
+
 }
+
 
 hermano_menor = {
 nombre: "Kevin",
@@ -35,9 +35,7 @@ hijos.push(hermano_mayor)
 hijos.push(hermano_menor)
 
 */
-        hijo1.put("nombre", "Raul Jonatan");
-        hijo1.put("apellido", "Tola Choque");
-        hijo1.put("edad", "30");
+
 
 
         hijo2.put("nombre", "Kevin");
