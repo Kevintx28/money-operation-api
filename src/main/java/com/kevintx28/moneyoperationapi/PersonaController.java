@@ -58,31 +58,39 @@ hijos.push(hermano_menor)
         HashMap<String, String> movimiento4 = new HashMap<String, String>(); // obj1
         HashMap<String, String> movimiento5 = new HashMap<String, String>(); // obj1
 
-        movimiento1.put("monto", "1600");
-        movimiento1.put("concepto", "compra de tarjeta grafica RTX 2080");
-        movimiento1.put("tipo", "salida");
-        movimiento1.put("moneda", "soles");
+        public void ListaHijosActionPerformed(java.awt.event.ActionEvent){
 
-        movimiento2.put("monto", "2000");
-        movimiento2.put("concepto", "Pago mensual de salario");
-        movimiento2.put("tipo", "ingreso");
-        movimiento2.put("moneda", "soles");
+        }
+        String mensaje = null ;
 
-        movimiento3.put("monto", "10");
-        movimiento3.put("concepto", "Chaufa de pollo");
-        movimiento3.put("tipo", "salida");
-        movimiento3.put("moneda", "soles");
+        mensaje = ListaHijos.getSelectedItem().toString();
 
-        movimiento4.put("monto", "200");
-        movimiento4.put("concepto", "Auriculares razer bluchuu");
-        movimiento4.put("tipo", "salida");
-        movimiento4.put("moneda", "soles");
 
-        movimiento5.put("monto", "500");
-        movimiento5.put("concepto", "Elabore diseño para la empresa xyz");
-        movimiento5.put("tipo", "ingreso");
-        movimiento5.put("moneda", "soles");
 
+            movimiento1.put("monto", "1600");
+            movimiento1.put("concepto", "compra de tarjeta grafica RTX 2080");
+            movimiento1.put("tipo", "salida");
+            movimiento1.put("moneda", "soles");
+
+            movimiento2.put("monto", "2000");
+            movimiento2.put("concepto", "Pago mensual de salario");
+            movimiento2.put("tipo", "ingreso");
+            movimiento2.put("moneda", "soles");
+
+            movimiento3.put("monto", "10");
+            movimiento3.put("concepto", "Chaufa de pollo");
+            movimiento3.put("tipo", "salida");
+            movimiento3.put("moneda", "soles");
+
+            movimiento4.put("monto", "200");
+            movimiento4.put("concepto", "Auriculares razer bluchuu");
+            movimiento4.put("tipo", "salida");
+            movimiento4.put("moneda", "soles");
+
+            movimiento5.put("monto", "500");
+            movimiento5.put("concepto", "Elabore diseño para la empresa xyz");
+            movimiento5.put("tipo", "ingreso");
+            movimiento5.put("moneda", "soles");
 
         listaHijos.add(movimiento1);
         listaHijos.add(movimiento2);
@@ -91,5 +99,6 @@ hijos.push(hermano_menor)
         listaHijos.add(movimiento5);
 
         return listaHijos;
+
     }
 }
