@@ -58,14 +58,6 @@ hijos.push(hermano_menor)
         HashMap<String, String> movimiento4 = new HashMap<String, String>(); // obj1
         HashMap<String, String> movimiento5 = new HashMap<String, String>(); // obj1
 
-        public void ListaHijosActionPerformed(java.awt.event.ActionEvent){
-
-        }
-        String mensaje = null ;
-
-        mensaje = ListaHijos.getSelectedItem().toString();
-
-
 
             movimiento1.put("monto", "1600");
             movimiento1.put("concepto", "compra de tarjeta grafica RTX 2080");
