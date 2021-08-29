@@ -92,6 +92,8 @@ hijos.push(hermano_menor)
             movimiento5.put("tipo", "ingreso");
             movimiento5.put("moneda", "soles");
 
+        System.out.println("----------------------------------------------");
+
         listaHijos.add(movimiento1);
         listaHijos.add(movimiento2);
         listaHijos.add(movimiento3);
