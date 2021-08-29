@@ -71,10 +71,14 @@ hijos.push(hermano_menor)
             movimiento2.put("tipo", "ingreso");
             movimiento2.put("moneda", "soles");
 
+        System.out.println("----------------------------------------------");
+
             movimiento3.put("monto", "10");
             movimiento3.put("concepto", "Chaufa de pollo");
             movimiento3.put("tipo", "salida");
             movimiento3.put("moneda", "soles");
+
+
 
             movimiento4.put("monto", "200");
             movimiento4.put("concepto", "Auriculares razer bluchuu");
