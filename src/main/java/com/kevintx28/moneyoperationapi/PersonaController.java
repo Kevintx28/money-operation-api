@@ -64,6 +64,8 @@ hijos.push(hermano_menor)
             movimiento1.put("tipo", "salida");
             movimiento1.put("moneda", "soles");
 
+        System.out.println("----------------------------------------------");
+
             movimiento2.put("monto", "2000");
             movimiento2.put("concepto", "Pago mensual de salario");
             movimiento2.put("tipo", "ingreso");
