@@ -78,12 +78,14 @@ hijos.push(hermano_menor)
             movimiento3.put("tipo", "salida");
             movimiento3.put("moneda", "soles");
 
-
+        System.out.println("----------------------------------------------");
 
             movimiento4.put("monto", "200");
             movimiento4.put("concepto", "Auriculares razer bluchuu");
             movimiento4.put("tipo", "salida");
             movimiento4.put("moneda", "soles");
+
+        System.out.println("----------------------------------------------");
 
             movimiento5.put("monto", "500");
             movimiento5.put("concepto", "Elabore diseño para la empresa xyz");
