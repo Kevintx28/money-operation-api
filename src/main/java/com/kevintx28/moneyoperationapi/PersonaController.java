@@ -58,6 +58,7 @@ hijos.push(hermano_menor)
         HashMap<String, String> movimiento4 = new HashMap<String, String>(); // obj1
         HashMap<String, String> movimiento5 = new HashMap<String, String>(); // obj1
 
+        System.out.println("----------------------------------------------");
 
             movimiento1.put("monto", "1600");
             movimiento1.put("concepto", "compra de tarjeta grafica RTX 2080");
